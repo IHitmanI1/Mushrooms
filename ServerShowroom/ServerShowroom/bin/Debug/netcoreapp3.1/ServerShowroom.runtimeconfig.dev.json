@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\HITMAN\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HITMAN\\.nuget\\packages"
+    ]
+  }
+}
