@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\audiA1.jpg" />
+    <None Include="wwwroot\Images\audiA3.jpg" />
+    <None Include="wwwroot\Images\audiA4.jpg" />
+    <None Include="wwwroot\Images\audiA5.jpg" />
+    <None Include="wwwroot\Images\audiA6.jpg" />
+    <None Include="wwwroot\Images\audiA7.jpg" />
+    <None Include="wwwroot\Images\audiA8.jpg" />
+    <None Include="wwwroot\Images\audiQ3.jpg" />
+    <None Include="wwwroot\Images\audiQ5.jpg" />
+    <None Include="wwwroot\Images\audiQ7.jpg" />
+    <None Include="wwwroot\Images\audiQ8.jpg" />
+    <None Include="wwwroot\Images\audiTT.jpg" />
+    <None Include="wwwroot\Images\bmw116d.jpg" />
+    <None Include="wwwroot\Images\bmw530i.jpg" />
+    <None Include="wwwroot\Images\bmw730Ld.jpg" />
+    <None Include="wwwroot\Images\fordFiesta.jpg" />
+    <None Include="wwwroot\Images\fordFocus.jpg" />
+    <None Include="wwwroot\Images\fordMustang.jpg" />
+    <None Include="wwwroot\Images\genesisG70.jpg" />
+    <None Include="wwwroot\Images\genesisG80.jpg" />
+    <None Include="wwwroot\Images\genesisG90.jpg" />
+    <None Include="wwwroot\Images\hondaAccord.jpg" />
+    <None Include="wwwroot\Images\hondaCivic.jpg" />
+    <None Include="wwwroot\Images\hondaCRV.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+  </ItemGroup>
+
+</Project>

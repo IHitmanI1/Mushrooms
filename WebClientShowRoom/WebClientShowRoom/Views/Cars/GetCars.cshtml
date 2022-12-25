@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebClientShowRoom.Models.Cars>
+<h2>Полный список доступных к покупке автомобилей</h2>
+<div>
+    <table>
+        <tr>
+            <th> Фото</th>
+            <th> Марка  </th>
+            <th> Модель </th>
+            <th> Год выпуска </th>
+            <th> Класс  </th>
+            <th> Объём двигателя  </th>
+            <th> Л.С.  </th>
+            <th> Трансмиссия  </th>
+            <th> Цена  </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> <img src="~/Images/@item.Image" width="70" height="70"> </td>
+                <td> @item.Mark  </td>
+                <td> @item.Model </td>
+                <td> @item.YearOfIssue </td>
+                <td> @item.Class </td>
+                <td> @item.EngineVolume </td>
+                <td> @item.HorsePower </td>
+                <td> @item.Transmission </td>
+                <td> @item.Price </td>
+                <td><a class="order-button" href="@Url.Action("Create_Order", "Cars", new {ID=item.ID})">Заказать</a></td>
+            </tr>
+        }
+    </table>
+</div>

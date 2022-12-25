@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Добро пожаловать в "Автосалон"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <!--меню-->
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+             <div class="container">
+                    <ul class="nav navbar-nav">
+                        <li><a href="~/Home/Index" class="navbar-brand">Главная</a></li>
+                        <li><a href="~/Home/About" class="navbar-brand">О нас</a></li>
+                        <li><a href="~/Cars/GetCars" class="navbar-brand">Автомобили</a></li>
+                    </ul>
+             </div>
+    </nav>
+    <!--основной контент-->
+        <div class="container body-content">
+        @RenderBody()
+            <hr />
+            <footer>
+                <p></p>
+            </footer>
+        </div>
+</body>
+</html>
