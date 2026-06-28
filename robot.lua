@@ -1,3 +1,4 @@
+https://youtube.com/shorts/hrEVbSM0Yt4?si=Dm12IQpD1Dx00qe3
 local component = require("component")
 local robot = require("robot")
 local computer = require("computer")
